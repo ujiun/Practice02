@@ -11,16 +11,15 @@ public class Ex13 {
 		System.out.print("숫자: ");
 		double num = sc.nextDouble();
 		
-		double x1 = (num*num*num)-9*num+2;
-		double x2 = (7*num)+2;
+		double x;
 		
 		if (num<=0) {
-			System.out.println("계산결과는 " + x1 + "입니다.");
+			 x = (num*num*num)-9*num+2;
 		}else {
-			System.out.println("계산결과는 " + x2 + "입니다.");
+			 x = (7*num)+2;
 		}
 		
-		
+		System.out.println("계산결과는 " + x + "입니다.");
 		
 		sc.close();
 	}
